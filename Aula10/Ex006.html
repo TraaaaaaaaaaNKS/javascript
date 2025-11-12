@@ -5,31 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos DOM</title>
     <style>
-        div#area {
-            font: normal 20pt Arial;
-            background: green;
-            color: white;
-            width: 200px;
-            height: 200px;
-            line-height: 200px;
+         * {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(240, 217, 186);
+            font-size: 1.2em
+         }
+
+         #area {
+            background-color: rgba(133, 133, 133, 0.815);
+            color: rgba(255, 255, 255, 0.863);
+            margin: auto;
+            width: 50vh;
+            height: 50vh;
+            line-height: 50vh;
             text-align: center;
-        }
+            border-radius: 50%
+         }
+
+         #area:hover {
+            background-color: rgba(238, 234, 9, 0.658);
+            color: blue;
+            transition: 500ms;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+         }
+
     </style>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrar()">
-        Interaja...
+    <div id="area">
+        Clique aqui
     </div>
-
     <script>
+         var area = document.getElementById('area')
+         area.addEventListener('click', clicar)
+         area.addEventListener('mouseenter', entrar)
+         area.addEventListener('mouseout', sair)
+
         function clicar() {
-            var area = window.document.getElementById('area')
-            area.innerText = 'Clicou'
-           }
-           function entrar() {
-            
-           }
+            area.innerText = 'Salveeeeee!'
+        }
+        function entrar() {
+            area.innerText = 'Entrou!'
+        }
+        function sair() {
+            area.innerText = 'Saiu!'
+        }
     </script>
-    
 </body>
 </html>
