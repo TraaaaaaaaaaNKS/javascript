@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(61, 165, 250);
+    font-size: 1.2em;
+    text-align: center;
+    width: 98vw;
+}
+
+header {
+    color: white;
+}
+
+section {
+    background-color: white;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 6px 8px 3px rgba(0, 0, 0, 0.432);
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+}
+
+#resultado {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    color: white;
+}

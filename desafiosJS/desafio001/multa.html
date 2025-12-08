@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <h1>Seu país</h1>
+    País onde mora: <input type="text" name="pais" id="ipais">
+    <input type="button" value="Avançar" onclick ="pais()">
+    <div id="resultado">
+
+    </div>
+    <script>
+        function pais() {
+            var lugar = document.getElementById('ipais').value
+            var res = document.getElementById('resultado')
+            if (lugar.toLowerCase() == 'brasil') {
+                res.innerHTML = 'Você é brasileiro'
+            } else {
+                res.innerHTML = 'Você é estrangeiro'
+            }
+        }
+    </script>
+</body>
+</html>
