@@ -1,0 +1,65 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: rgb(245, 196, 63);
+    text-align: center;
+    font-weight: 100;
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+section > h1 {
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+section > #linha {
+    background-color: black;
+    height: 5px;
+}
+
+#calcular {
+    background-color: black;
+    color: rgb(216, 172, 29);
+    font-size: 1.2rem;
+    width: 250px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+section > #res {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 14px 3px rgba(0, 0, 0, 0.486);
+}
+
+section > #res > p {
+    color: rgb(216, 172, 29);
+    padding: 20px;
+    
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.055) 0px 54px 55px, rgba(0, 0, 0, 0.041) 0px -12px 30px, rgba(0, 0, 0, 0.014) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    text-decoration: none;
+}
+

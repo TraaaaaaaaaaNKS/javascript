@@ -1,16 +1,13 @@
-function realPdolar(){
-    const real = 30;
-    const dolar = 5.50;
-    const total = real / dolar
-    return(`${real} reais custa ${total} doláres.`);
-    
-}
+const carro = {
+    marca: "ford",
+    modelo: "ka",
+    ano: 2015, 
+    placa: "KGS-4397",
+    buzina: function(){alert("biiiiiiiii") },
+    completo: function(){
+        return `A marca é ${this.marca} e o modelo é ${this.modelo}`
+    }
+};
 
-console.log(realPdolar());
+console.log(carro.completo());
 
-
-//PARTE 2
-
-function alertaHello() {
-    alert 
-}
