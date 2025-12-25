@@ -4,7 +4,7 @@ const corredor = {
     idade: 29,
     correr: function() {
         console.log("Vruuuuuuuuummmmmmm!");
-    },
+    }
 };
 
 console.log(corredor.nome);
