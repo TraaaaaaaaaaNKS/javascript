@@ -3,13 +3,11 @@ function verificar() {
     var anoNasc = Number(document.getElementById("anoNasc").value);
     var idade = anoAtual - anoNasc;
     var smasc = document.getElementById("masc");
-    var sfem = document.getElementById("fem");
+    
     res = document.getElementById("res");
-    if (anoNasc >= anoAtual){
-        alert("[ERRO!] Verifique seus dados e tente novamente");
-        return;
+    if (anoNasc >= anoAtual || anoNasc == 0){
+        alert("Digite o ano de nascimento corretamente!")
     }
-    var img = document.createElement ('img')
     var genero = "";
     if (smasc.checked) {
         genero = ("um Homem");

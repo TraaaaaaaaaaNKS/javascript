@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(1, 84, 109);
+    color: white;
+    font: normal 1.3em arial ;
+}
+
+h1 {
+    text-align: center;
+}
+
+div#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#botoes > button {
+    margin: 20px;
+    background-color: rgb(1, 189, 126);
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+}
+
+div#botoes > button:hover {
+    background-color: rgb(0, 150, 100);
+}
+
+div#VerNumero {
+    background-color: black;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+}

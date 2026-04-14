@@ -1,4 +1,4 @@
-var posicao = 7
+let posicao = 14
 if (posicao == 1) {
     console.log ('Parabéns, seu time é campeão brasileiro!')
 } else if (posicao <= 4) {

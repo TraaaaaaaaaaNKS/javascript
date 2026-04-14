@@ -5,50 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos DOM</title>
     <style>
-         * {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(240, 217, 186);
-            font-size: 1.2em
-         }
-
-         #area {
-            background-color: rgba(133, 133, 133, 0.815);
-            color: rgba(255, 255, 255, 0.863);
-            margin: auto;
-            width: 50vh;
-            height: 50vh;
-            line-height: 50vh;
+        #area {
+            font: normal 15pt arial;
+            background-color: green;
+            color: white;
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
             text-align: center;
-            border-radius: 50%
-         }
-
-         #area:hover {
-            background-color: rgba(238, 234, 9, 0.658);
-            color: blue;
-            transition: 500ms;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-         }
-
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <div id="area">
-        Clique aqui
+        Interaja...
     </div>
     <script>
-         var area = document.getElementById('area')
-         area.addEventListener('click', clicar)
-         area.addEventListener('mouseenter', entrar)
-         area.addEventListener('mouseout', sair)
+        let area = document.getElementById("area")
+        area.addEventListener("click", clicar)
+        area.addEventListener("mouseenter", entrar)
+        area.addEventListener("mouseout", sair)
 
         function clicar() {
-            area.innerText = 'Salveeeeee!'
+            area.innerHTML = "Clicou!"
+            area.style.backgroundColor = "Red"
         }
-        function entrar() {
-            area.innerText = 'Entrou!'
+
+        function entrar () {
+            area.innerHTML = "Entrou!"
         }
-        function sair() {
-            area.innerText = 'Saiu!'
+
+        function sair () {
+            area.innerHTML = "Saiu!"
         }
     </script>
 </body>
