@@ -8,4 +8,4 @@ let valores = [8, 1, 7, 4, 2, 9]
         console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
     }
 
-    console.log(valores.indexOf())
+    console.log(valores.indexOf(2))

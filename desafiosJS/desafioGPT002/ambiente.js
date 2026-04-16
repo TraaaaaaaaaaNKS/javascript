@@ -24,9 +24,12 @@ function finalizar() {
 
 }
 
+
+
 function limpar() { 
     numerosadd = []
     resultado.innerHTML = ""
     res.innerHTML = ""
+    return;
 }
 
