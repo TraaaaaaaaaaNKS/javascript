@@ -1,6 +1,5 @@
 let NumArmazenado = []
 
-
 function adicionar() {
     let inumero = document.querySelector("input#numero").value;
     let numero = Number(inumero);
@@ -17,6 +16,15 @@ function adicionar() {
     } else {
         alert ("Esse número já existe na lista!");
     }
+}
 
+function finalizar() {
+    // Total de números
+    let totalnum = NumArmazenado.length(numero)
+    let finish = document.querySelector("div#res");
+    let numtotal = document.createElement("p");
+    finish.text = `Ao todo, temos ${totalnum} números armazenados.`
+    finish.appendChild(numtotal)
+    
 }
 

@@ -1,0 +1,75 @@
+:root {
+    --corpasta-back: rgba(201, 220, 245, 0.973);
+    --corborder: rgb(0, 0, 71);
+    --corelements: rgba(156, 156, 156, 0.795);
+    --colorborder: rgb(48, 47, 47);
+    --color: rgb(63, 63, 63);
+}
+
+body {
+    background-color: rgb(235, 226, 215);
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.caixa {
+    background-color: var(--corpasta-back);
+    border: 5px solid var(--corborder);
+    width: 400px;
+    height: 600px;
+    display: flex;
+    margin: 20px 20px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursos {
+    background-color: var(--corelements);
+    color: var(--color);
+    text-align: center;
+    font-size: 1.3em;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid var(--colorborder);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* div#c1 > .cursos:hover {
+    background-color: rgb(0, 0, 90);
+    color: whitesmoke;
+    transition: 500ms;
+
+} */
+
+button {
+    background-color: var(--corborder);
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.selecionado {
+    background-color: rgb(1, 1, 29);
+    color: white;
+    transition: 600ms;
+}
+

@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: rgb(197, 187, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+div#farol {
+    background-color: black;
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    width: 150px;
+    height: 300px;
+    padding: 10px;
+    margin: 50px;
+}
+
+
+div#Vermelho {
+    background-color: rgb(92, 20, 20);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+div#Amarelo {
+    background-color: rgb(54, 47, 8);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+div#Verde {
+    background-color: rgb(16, 59, 33);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+article > p  {
+    text-align: left;
+    padding: 20px;
+}
+
+#botoes {
+    display: flex;
+    width: 100vw;
+    flex-flow: column nowrap;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    width: 400px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#BotaoRed > button {
+    background-color: red;
+}
+
+#BotaoYellow > button {
+    background-color: yellow;
+}
+
+#BotaoGreen > button {
+    background-color: lime;
+}
+
