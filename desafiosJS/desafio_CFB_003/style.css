@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 35, 88, 0.767);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calculadora {
+    background-color: rgb(55, 0, 255);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+}
+
+#caixa_in {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.5em;
+}
+
+#caixa_in > input {
+    background-color: rgba(0, 179, 202, 0.76);
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#caixa_in > input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0px;
+}
+
+div#res {
+    background-color: white;
+    padding: 10px;
+}

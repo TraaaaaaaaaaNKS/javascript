@@ -4,12 +4,19 @@
  const cursos = ["HTML", "CSS", "JavaScript", "PHP", "React", "MySQL", "ReactNative"]
 
  cursos.map((el, chave) => {
-   console.log(chave)
-   const novoelemento = document.createElement("div")
-   novoelemento.setAttribute("id", `C${chave}`)
-   novoelemento.setAttribute("class", "cursos")
-   novoelemento.innerHTML = el
-   caixa1.appendChild(novoelemento)
+  console.log(chave)
+  const novoelemento = document.createElement("div")
+  novoelemento.setAttribute("id", `C${chave}`)
+  novoelemento.innerHTML = el
+  novoelemento.setAttribute("class", "cursos")
+
+
+
+  novoelemento.addEventListener("click", (evt) => {
+  caixa1.removeChild(evt.target)
+  })
+  caixa1.appendChild(novoelemento)
+  
  })
 
 //  const novoelemento = document.createElement("div")

@@ -95,5 +95,5 @@ body.noturno > main > #btn {
 body.noturno > main > button:hover {
     border: 2px solid rgb(156, 156, 156);
     transition: 500ms;
-    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.329);
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.466);
 }

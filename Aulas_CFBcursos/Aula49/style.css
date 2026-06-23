@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#caixa_array {
+    background-color: rgba(144, 238, 144, 0.555);
+    border: 3px solid rgb(0, 46, 0);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#caixa_pesquisar {
+    background-color: lightblue;
+
+    display: flex;
+    flex-flow: column;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#caixa_pesquisar > input {
+    border: 0px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#caixa_pesquisar > button#btn_pesquisar {
+    background-color: rgb(0, 0, 68);
+    color: white;
+    font-size: 1.3em;
+    border: 0px;
+    border-radius: 20px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#caixa_resultado {
+    background-color: rgb(212, 112, 112);
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(94, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    
+}
