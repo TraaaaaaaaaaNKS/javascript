@@ -1,5 +1,5 @@
 let caixa = document.querySelector(".caixa")
-let cores = ["Azul", "Bege", "Verde"]
+let cores = ["Azul", " Bege", " Verde"]
 let cursos = ["HTML", "CSS", "JavaScript", cores]
 // cursos [0] = 'C++'
 

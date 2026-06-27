@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+.campoForm {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+label {
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin: 10px 5px;
+}
+
+.campoForm input {
+    font-size: 1.2em;
+    border-radius: 10px;
+    width: 300px;
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+.campoForm button {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width:300px;
+    margin: 10px 5px;
+    padding: 8px;
+    border-color: rgb(105, 105, 105);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.campoForm button:hover  {
+    background-color: rgb(155, 155, 155);
+    color: white;
+    transition: 500ms;
+}
+
+.res {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
