@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 59</title>
+</head>
+<body>
+    <div class="campoForm">
+        <label>Nome</label>
+        <input type="text" name="f_nome" id="f_nome" value="" required>
+    </div>
+    <div class="campoForm">
+        <label>Portas</label>
+        <input type="number" name="f_portas" id="f_portas" value="" required>
+    </div>
+    <div class="campoForm">
+        <label>Blindagem</label>
+        <input type="number" name="f_blindagem"id="f_blindagem" value="0" disabled>
+    </div>
+    <div class="campoForm">
+        <label>Municao</label>
+        <input type="number" name="f_municao" id="f_municao" value="0" disabled>
+    </div>
+    Tipo:
+    <div class="tipo">
+        <input type="radio" name="f_tipo" id="f_militar"> Militar <br>
+        <input type="radio" name="f_tipo" id="f_normal" checked>Normal
+    </div>
+    <div class="campoForm">
+        <button id="btn_add">Adicionar</button>
+    </div>
+    <div class="carros"></div>
+    <script src="script.js"></script>
+</body>
+</html>  
