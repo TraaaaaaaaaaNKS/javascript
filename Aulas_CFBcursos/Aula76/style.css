@@ -1,0 +1,29 @@
+*{
+    border:none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.objetos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #888;
+    background-color: #eee;
+}
+
+.computadores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #888;
+    background-color: #eee;
+}

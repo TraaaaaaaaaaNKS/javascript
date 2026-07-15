@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de cadastro de alunos</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de cadastro</h1>
+    </header>
+    <main>
+        <div id="cadastro" class="cadastro">
+            <p>Nome: <input type="text" value="" required id="nome"></p>
+            <p>AV1: <input type="number" id="nota1" class="nota" value="0" max="10" required></p>
+            <p>AV2: <input type="number" class="nota" id="nota2" value="0" max="10" required></p>
+            <button id="btn_cadastrar">Cadastrar</button>
+        </div>
+        <h2>Alunos</h2>
+        <div id="area">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

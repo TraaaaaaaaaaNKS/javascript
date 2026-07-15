@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: white;
+    background-color: rgb(17, 17, 17);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: rgb(46, 158, 46);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+header h2 {
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    background-color: rgb(46, 158, 46);
+    color: white;
+    display: flex;
+    flex-flow: column; 
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section h2{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cadastro{
+    font-size: 1.2em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+
+
+.cadastro input{
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 3px;
+    margin: 10px;
+}
+
+ button {
+    margin: 10px;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+
+#lista {
+    background-color: rgb(46, 158, 46);;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    width: 80vw;
+    border-radius: 10px;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+.info {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 1.2em;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 4px;
+}

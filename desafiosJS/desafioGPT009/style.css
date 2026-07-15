@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: #07134b;
+    color: #fff;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(7, 36, 99);
+    color: aliceblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+#cadastro{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px;
+    margin: 1px;
+}
+
+#cadastro > p{
+    font-size: 1.3em;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#nome{
+    border: none;
+    font-size: 18px;
+    font-weight: lighter;
+    border-radius: 8px;
+    padding: 7px;
+    width: 250px;
+}
+
+
+input.nota{
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    width: 75px;
+    padding: 7px;
+}
+
+button{
+    background-color: rgb(7, 36, 99);
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(42, 62, 104);
+    transition: 300ms;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+div#area{
+    background-color: rgb(42, 62, 104);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    min-height: 200px;
+
+}
+
+.aluno{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    flex-flow: column wrap;
+    margin: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,76 @@
+.timer{
+    display: flex;
+    flex-direction: column;
+    background-color: #dadadac2;
+    width: 400px;
+    border: 3px solid rgb(94, 94, 94);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#data_hora{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#div_data{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 250px;
+    margin: 0px 2px 0px 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#div_relogio{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #1b1b1bbc;
+    color: rgba(34, 255, 4, 0.767);
+    font-size: 1.3em;
+    font-weight: lighter;
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.def_alarme{
+    display: flex;
+    flex-flow: column;
+    margin-left: 10px;
+}
+
+
+input {
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+
+#comandos{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    width: 75px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alarme{
+    background-color: red !important;
+}
