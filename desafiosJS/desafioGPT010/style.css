@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:30px;
+}
+
+#cadastro{
+    margin-bottom:30px;
+}
+
+#cadastro p{
+    margin:10px 0;
+}
+
+input{
+    padding:6px;
+}
+
+button{
+    padding:8px 15px;
+    cursor:pointer;
+}
+
+#area{
+    margin-top:20px;
+}
+
+.funcionario{
+    border:1px solid #999;
+    padding:10px;
+    margin-bottom:10px;
+}
