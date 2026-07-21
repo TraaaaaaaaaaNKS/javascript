@@ -36,3 +36,21 @@ console.log(nome.slice(11, 16))
 let a_nome = nome.split(" ")
 console.log(a_nome)
 
+// O substring é inútil pois tenho o slice.
+let parteString = nome.substring(0, 4)
+console.log(parteString)
+
+// converte um number para uma string
+let num = 10
+console.log(typeof(num.toString()))
+
+// Verifica se a string inicia com o valor que eu passar no parametro
+console.log(nome.startsWith("José"))
+
+// Verifica se a string termina com o valor que eu passar no parametro
+console.log(nome.endsWith("Leite"))
+
+// Repete a string
+console.log(nome.repeat(2))
+
+//c
