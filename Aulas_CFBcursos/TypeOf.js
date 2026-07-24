@@ -1,9 +1,30 @@
-let v1 = 10;
-let v2 = "10";
-let v3 = v1 === v2;
-let v4 = {nome:"Bruno"};
+class person{
+    handle(){
+        return "handle1"
+    }
+}
 
-console.log(typeof(v1));
-console.log(typeof(v2));
-console.log(typeof(v3));
-console.log(typeof(v4));
+class otherPerson{
+    handle(){
+        return "handle2"
+    }
+}
+
+let classesNames = [person, otherPerson]
+function handleClasse(){
+    if(classesNames.length <= 0){
+        console.log("end")
+        return false
+    }
+
+    console.log(classesNames)
+
+    let className = new classesNames[0]
+    className.handle()
+
+    classesNames.shift();
+    console.log(classesNames)
+    handleClasse()
+}
+
+handleClasse()
