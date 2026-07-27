@@ -1,21 +1,29 @@
-let nome = new String("Bruno Pinho Camposssssss 1978")
-let email = "Bruno@bruno.com.br"
+const q1 = document.getElementById("q1")
+const q2 = document.getElementById("q2")
+const posx = document.getElementById("posx")
+const posy = document.getElementById("posy")
+const largura = document.getElementById("largura")
+const altura = document.getElementById("altura")
 
-console.log(nome)
-  
-console.log(nome.search(/pinho/i))
+q1.accessKey = "b"
+q2.accessKey = "n"
 
-console.log(nome.match(/o/ig))
+console.log(q1.accessKey)
+console.log(q2.accessKey)
 
-console.log(nome.replace(/"pinho"/i, "teste"))
 
-console.log(/c/i.test(nome))
+const info = (el)=>{
+    let DOMRect_q = el.getBoundingClientRect()
+    posx.innerHTML = `posx${DOMRect_q.x}`
+    posy.innerHTML = `posy${DOMRect_q.y}`
+    largura.innerHTML = `Largura:${DOMRect_q.width}`
+    altura.innerHTML = `Altura:${DOMRect_q.height}`
+}
 
-//Meta caracteres
-console.log(nome.match(/\d/ig))
-console.log(nome.match(/\s/ig))
-console.log(nome.match(/\bP/ig))
+q1.addEventListener("click", ((evt)=>{  
+    info(evt.target)
+}))
 
-//Quantificadores 
-console.log(nome.match(/o+|s+/ig))
-console.log(nome.match(/no*/ig))
+q2.addEventListener("click", ((evt)=>{  
+    info(evt.target)
+}))

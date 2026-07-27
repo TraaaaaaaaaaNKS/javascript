@@ -5,59 +5,27 @@
     box-sizing: border-box;
 }
 
-.controles{
+.info{
     display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    width: 100%;
-    background-color: #eee;
-    border: 2px solid black;
-    border-radius: 5px;
+    justify-content: space-around;
 }
-
-.controle{
+.quadrado{
+    position: absolute;
+    margin-top: 5px;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    background-color: #fff;
-    border: 2px solid rgb(143, 143, 143);
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
+   
 }
-
-button {
-    cursor: pointer;
-    background-color: #888;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-input[type='number'], #num_objetos{
-    border: 1px solid #000;
-    padding: 5px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+#q1 {
+    top: 20;
+    left:100px;
+    background-color: #f00;
     width: 150px;
+    height: 150px;
 }
-
-.palco{
-    display: flex;
-    width: 100%;
-    min-height: 100%;
-    min-height: fill-available;
-    min-height: -webkit-fill-available;
-    background-color: #eee;
-    border: 2px solid #000;
-    border-radius: 5px;
-    position: absolute;
-    overflow: hidden;
-}
-
-.bola{
-    position: absolute;
-    border-radius: 100px;
+#q2 {
+    top: 160px;
+    left: 300px;
+    background-color: #00f;
+    width: 100px;
+    height: 150px;
 }
