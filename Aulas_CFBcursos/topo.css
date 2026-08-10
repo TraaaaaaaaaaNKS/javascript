@@ -9,9 +9,10 @@
     font-size: 1.2em;
     font-style: italic;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100vw;
+    padding-right: 10px;
 }
 
 .titulo {

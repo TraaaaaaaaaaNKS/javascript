@@ -1,12 +1,15 @@
-const config_cxmsg = {
-    titulo:"Teste",
-    texto:"Curso de JavaScript",
-    cor:"#48f"
+import { Cxmsg } from "./cxmsg.js"
+
+const config = {
+    titulo: 'Curso JavaScript',
+    texto:"CFB Cursos",
+    cor: "#48f"
 }
-const cxmsg = new Cxmsg(config_cxmsg)
 
-const bnt_mostrarmsg = document.querySelector("#btn_mostrarmsg")
+const cxmsg = new Cxmsg(config)
 
-bnt_mostrar.addEventListener("click", ()=>{
-    
+const btn_mostrarcxmsg = document.querySelector("#btn_mostrarmsg")
+
+btn_mostrarcxmsg.addEventListener("click", ()=>{
+    Cxmsg.mostrar("CFB Cursos", "Curso JavaScript")
 })

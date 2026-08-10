@@ -10,3 +10,46 @@
     border-radius: 5px;
     margin: 5px;
 }
+
+/* Aqui vou fazer as config do titulo, corpo e botao  */
+
+.titulo_box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color:#48f;
+    color: #fff;
+    padding:5px;
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.corpo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #eee;
+    color: #000;
+    padding: 30px 5px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius:0px 0px 5px 5px ;
+}
+
+button {
+    background-color: #48f;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
